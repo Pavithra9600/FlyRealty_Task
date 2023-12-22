@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="30px" viewBox="0 0 22 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-map-pin-white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-map-pin-white" fill="#000000" fill-rule="nonzero">
+            <path d="M0,10.6786862 C0,4.78036345 4.92488951,0 11.0006481,0 C17.0751105,0 22,4.78036345 22,10.6786862 C22,16.8018486 17.212489,23.5333303 13.8881885,26.8859555 C12.5545802,28.2300041 10.9993519,30 10.9993519,30 C10.9993519,30 9.5516937,28.2399962 8.30880705,26.9346714 C4.98191456,23.4358997 0,16.24974 0,10.6786862 Z M11.2380952,15.3448276 C14.1310154,15.3448276 16.4761905,13.0290591 16.4761905,10.1724138 C16.4761905,7.31576854 14.1310154,5 11.2380952,5 C8.34517512,5 6,7.31576854 6,10.1724138 C6,13.0290591 8.34517512,15.3448276 11.2380952,15.3448276 Z" id="Shape-Copy"></path>
+        </g>
+    </g>
+</svg>

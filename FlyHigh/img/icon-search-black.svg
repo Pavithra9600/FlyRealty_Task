@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="M-Header" transform="translate(-17.000000, -17.000000)" stroke="#474747" stroke-width="1.7">
+            <g id="Group-8">
+                <path d="M27.2513097,26.2564964 L30.9265835,29.925942 C31.0638816,30.2129659 31.0050656,30.5552271 30.7797931,30.7801423 C30.5545207,31.0050575 30.2117158,31.0637803 29.9242361,30.9266999 L26.3324912,27.3406508 C25.4136728,27.9244262 24.3277964,28.3414087 23.1583911,28.3414087 C20.7605067,28.3317453 18.6828608,26.6798285 18.1366464,24.3486663 C17.590432,22.0175042 18.7185164,19.6168334 20.8632669,18.5461587 C23.0080174,17.475484 25.6084551,18.0148501 27.1486182,19.8498259 C28.6887814,21.6848018 28.7658263,24.3354328 27.3348386,26.2564964 L27.2513097,26.2564964 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

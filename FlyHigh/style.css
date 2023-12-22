@@ -1,0 +1,694 @@
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: orangered;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.navbar-brand {
+    margin: 2px 20px 2px;
+}
+
+.navbar {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: gainsboro;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 30px;
+    padding: 10px 8px;
+    font-size: 25px;
+
+}
+
+.headerWork {
+    position: relative;
+    margin-top: 5px;
+}
+
+.InsideHeader_wrapper {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.InsideHeader_titleWrapper {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.InsideHeader_title {
+    font-size: 3em;
+
+}
+
+/*  */
+.headBelow {
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: solid 1px #F2F2F2;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+    padding: 10px 0px;
+    height: 60px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.headBelow .PageMenu_title {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    color: #474747;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.headBelow .PageMenu_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+
+.headBelow .PageMenu_listItem {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.headBelow .PageMenu_listItem a {
+    text-decoration: none;
+    color: #474747;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headBelow .PageMenu_listItem.active a {
+    font-weight: 600;
+    color: orangered;
+    font-weight: bolder;
+}
+
+/* content middle.... */
+.contentMiddle {
+    padding: 30px 0;
+    background-color: #F7F7F7;
+}
+
+
+
+.justify-content-center {
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-10 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-lg-6{
+    width: 100%;
+    height: auto;
+}
+
+.contentMiddle .introBanner_media {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0 0 30px 0;
+}
+
+.contentMiddle .introBanner_head {
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.contentMiddle .introBanner_body p {
+    font-weight: 100;
+    line-height: 2;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: Oswald, sans-serif;
+    font-weight: 300;
+    margin: 0 0 32px 0;
+}
+
+/* form */
+label {
+    font-family: Oswald,sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #474747;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form-control {
+    border-radius: 0 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    
+}
+
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.css-17oha3f {
+    padding: 30px;
+}
+
+.PageSection_header {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.formStart {
+    padding: 10px 20px;
+}
+
+.css-hyyfc8 .PageSection_headerWrapper {
+    text-align: center;
+}
+
+.css-hyyfc8 .PageSection_header {
+    text-align: left;
+    font-family: Oswald, sans-serif;
+    font-size: 25px;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.css-17oha3f .formMain {
+    width: 100%;
+    padding: 0 15px;
+}
+
+.btn {
+    background-color: #EE2E24;
+    color: #FFFFFF;
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    -moz-letter-spacing: 2px;
+    -ms-letter-spacing: 2px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(45deg,rgba(179,167,116,0.2) 0%,rgba(0,0,0,0) 80%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    font-size: 1rem;
+}
+
+/* direction */
+.TwoBoxDirection {
+    padding: 43px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.TwoBoxDirection .pageCards_card {
+    background-color: #F7F7F7;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.TwoBoxDirection .pageCards_title {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    color: #474747;
+}
+
+.TwoBoxDirection .pageCards_address {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.TwoBoxDirection .pageCards_phone {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.TwoBoxDirection .pageCards_directions {
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Oswald, sans-serif;
+    color: #474747;
+    text-transform: uppercase;
+}
+
+.TwoBoxDirection .pageCards_directions img {
+    margin: -2px 5px 0 0;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+/* 3 grid */
+.ThreeBox{
+    width: 100%;
+    padding: 30px 0;
+}
+
+
+.ThreeBox .BoxWall {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #FFFFFF;
+}
+
+.ThreeBox .BoxButton {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #FFFFFF;
+}
+
+.ThreeBox .BoxImage {
+    transition: all .3s ease;
+    object-fit: cover;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.ThreeBox .BoxButtonTitle {
+    position: absolute;
+    font-family: Oswald, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.30);
+    transition: all .3s ease;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 90px;
+}
+
+.ThreeBox .BoxButton {
+    text-align: center;
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #FFFFFF;
+}
+
+/* Optional: Adjust the text size for smaller screens */
+@media (max-width: 767px) {
+    .css-1wxur7d .CTA_buttonTitle {
+        font-size: 16px;
+    }
+}
+
+/* footer */
+
+.FooterStart{
+    font: 300 17px/24px Oswald, sans-serif;
+}
+
+.FooterStart .FooterRound {
+    background-image: url(/image/footer-bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+.FooterStart .FooterHead {
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+.FooterStart .FooterSym {
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 0 30px 0;
+}
+
+.FooterStart .FooterAdd {
+    text-align: center;
+    width: 100%;
+}
+
+.list-inline,
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+
+
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+}
+
+address,
+dl,
+ol,
+ul {
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.FooterStart .FooterBody {
+    padding: 20px 0;
+}
+
+.FooterStart .Footer_nav .Footer_nav-menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.FooterStart .Footer_nav {
+
+    display: flex;
+    display: inline-block;
+
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 20px 0;
+}
+
+.FooterStart .Footer_nav .Footer_nav-menu {
+    margin: 0;
+    display: inline-block;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.Footer_nav .Footer_nav-menu li {
+    display: inline-block;
+}
+
+.FooterStart .Footer_sublinks {
+
+    display: flex;
+
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: center;
+
+    justify-content: center;
+    width: 100%;
+    padding: 15px 0 30px;
+}
+
+.FooterStart .Footer_socialLinks {
+    width: 100%;
+
+    display: flex;
+
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+
+    justify-content: center;
+    padding: 0;
+    text-align: center;
+}
+
+.FooterStart .Footer_socialLinks ul {
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+
+    justify-content: center;
+}
+
+.FooterStart .Footer_socialLinks ul li {
+
+    margin: 0 5px;
+
+    display: flex;
+
+    flex-flow: column wrap;
+    -webkit-box-pack: center;
+
+    justify-content: center;
+    font-weight: 400;
+}
+
+li {
+
+    text-align: -webkit-match-parent;
+}
+
+.Footer_sublinks li {
+    display: inline-block;
+}
+
+.FooterStart .Footer_sublinks li {
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 15px;
+}
+
+.FooterStart .Footer_sublinks li a {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a {
+
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.FooterStart a,
+.FooterStart a:link,
+.FooterStart a:visited {
+    font-weight: 500;
+    color: #474747;
+}
+
+.FooterStart .FooterFoot {
+    padding-bottom: 30px;
+}
+
+.FooterStart .FooterFoot {
+    background-color: transparent;
+}
+.FooterStart .FooterFoot .FooterFootContent {
+    display: flex;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.FooterStart .FooterFootContent {
+    -webkit-box-align: center;
+    align-items: center;
+}
+.FooterStart .Footereho {
+    display: none;
+    width: 33.3%;
+    padding: 10px 0;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.FooterStart .FooterehoMobile {
+    display: block;
+    width: 33.3%;
+    padding: 10px 0;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.FooterStart .FooterehoMobile img {
+    width: 25px;
+}
+.FooterStart .FootCopyRight {
+    display: flex;
+    width: 33.3%;
+    color: #474747;
+    font-size: 11px;
+    font-weight: 400;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+}
